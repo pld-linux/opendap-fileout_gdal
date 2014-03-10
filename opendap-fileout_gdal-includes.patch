@@ -1,0 +1,20 @@
+--- fileout_gdal-0.9.2/GeoTiffTransmitter.cc.orig	2013-10-01 23:36:18.000000000 +0200
++++ fileout_gdal-0.9.2/GeoTiffTransmitter.cc	2014-03-10 02:57:33.070124249 +0100
+@@ -26,6 +26,7 @@
+ 
+ #include <cstdlib>
+ 
++#include <unistd.h>
+ #include <sys/types.h>                  // For umask
+ #include <sys/stat.h>
+ 
+--- fileout_gdal-0.9.2/JPEG2000Transmitter.cc.orig	2013-10-01 23:36:18.000000000 +0200
++++ fileout_gdal-0.9.2/JPEG2000Transmitter.cc	2014-03-10 02:58:12.953455910 +0100
+@@ -26,6 +26,7 @@
+ 
+ #include <cstdlib>
+ 
++#include <unistd.h>
+ #include <sys/types.h>                  // For umask
+ #include <sys/stat.h>
+ 
