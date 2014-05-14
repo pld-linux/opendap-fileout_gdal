@@ -5,26 +5,26 @@
 Summary:	OPeNDAP server module to return a GeoTiff, JP2k, etc., file for a DAP Data response
 Summary(pl.UTF-8):	Moduł serwera OPeNDAP zwracający pliki GeoTiff, JP2k itp. jako odpowiedź DAP
 Name:		opendap-fileout_gdal
-Version:	0.9.2
+Version:	0.9.3
 Release:	1
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/fileout_gdal-%{version}.tar.gz
-# Source0-md5:	45750b1bd1707848f9bc2d9bbb52f098
+# Source0-md5:	8a5106b7ecaeaa5bb93103d9671318f3
 Patch0:		%{name}-includes.patch
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.61
 BuildRequires:	automake >= 1:1.10
-%{?with_tests:BuildRequires:	bes >= 3.11.0}
-BuildRequires:	bes-devel >= 3.11.0
+%{?with_tests:BuildRequires:	bes >= 3.13.0}
+BuildRequires:	bes-devel >= 3.13.0
 BuildRequires:	gdal-devel >= 1.9.0
-BuildRequires:	libdap-devel >= 3.11.0
+BuildRequires:	libdap-devel >= 3.13.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool >= 2:1.5
 BuildRequires:	pkgconfig
-Requires:	bes >= 3.11.0
+Requires:	bes >= 3.13.0
 Requires:	gdal >= 1.9.0
-Requires:	libdap >= 3.11.0
+Requires:	libdap >= 3.13.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
