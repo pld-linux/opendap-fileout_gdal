@@ -5,12 +5,12 @@
 Summary:	OPeNDAP server module to return a GeoTiff, JP2k, etc., file for a DAP Data response
 Summary(pl.UTF-8):	Moduł serwera OPeNDAP zwracający pliki GeoTiff, JP2k itp. jako odpowiedź DAP
 Name:		opendap-fileout_gdal
-Version:	0.9.3
+Version:	0.9.4
 Release:	1
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/fileout_gdal-%{version}.tar.gz
-# Source0-md5:	8a5106b7ecaeaa5bb93103d9671318f3
+# Source0-md5:	85428b7c475f4cbd8b79e28aaba0bfd0
 Patch0:		%{name}-includes.patch
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.61
